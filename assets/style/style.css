@@ -1,0 +1,163 @@
+/**header */
+
+.link:hover {
+    text-decoration: underline;
+
+}
+
+.link {
+    margin-right: 15px
+}
+.link_large {
+    margin-left:140px;
+}
+
+
+
+/**main page*/
+
+.category {
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 30px;
+}
+
+.category:hover {
+    color: #000000;
+    cursor: pointer;
+    border-bottom: 1px red solid;
+}
+
+
+
+
+
+
+.logo {
+    padding-top: 10px;
+    height: 50px;
+}
+
+.counter {
+    width: 500px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.card_size {
+    height: 450px;
+    margin-bottom: 10px;
+}
+
+.container_base {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.progress_fixed {
+    margin-left: 15px;
+    margin-right: 15px;
+    color: red;
+}
+
+.card_details {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.product {
+
+}
+
+.product_info {
+    height: 30px;
+    padding:5px;
+    border-top:1px solid rgba(160, 160, 160, 0.2);
+}
+
+.product_title {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.img_landscape {
+    width: 100%;
+    z-index: 0;
+}
+
+.progress_lay {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.progress_max {
+    font-size: 16px;
+}
+
+.progress_now {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.progress_percentage {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+/**login*/
+.form_login {
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+
+
+
+/** Details*/
+
+#details_title {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+#details_text {
+    font-size: 20px;
+
+}
+
+#details_percentage {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#details_summ {
+    font-size: 54px;
+    font-weight: bold;
+}
+
+#details_buy_more{
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 18px;
+}
+#details_support_by_buy {
+
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.details_btn {
+    width: 100%
+}
+
+a{
+    color: black;
+}
