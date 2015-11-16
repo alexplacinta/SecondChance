@@ -31,7 +31,7 @@
                 <h3 style="text-align: center;margin-top: -30px;">OR</h3>
                 <span class="row" id="details_support_by_buy">Buy for second chance</span>
                 <?php foreach($project->products as $product) { ?>
-                    <a href="http://startup.dev/product/id/<?= $product->productID ?>">
+                    <a href="/product/id/<?= $product->productID ?>">
                     <div class="card product row">
                         <div class="card-image">
                             <img src="/assets/img/products/<?= $product->image ?>">
@@ -53,6 +53,6 @@
 </div>
 <script>
     $('#donate').click(function(e){
-       location.href = "http://startup.dev/project/donate/"+$('#money').val()+'/<?= $project->projectID ?>'
+       location.href = "/project/donate/"+$('#money').val()+'/<?= $project->projectID ?>'
     });
 </script>

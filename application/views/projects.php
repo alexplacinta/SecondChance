@@ -22,7 +22,7 @@
                     <div class="col s3 card_size">
                         <div class="card card_size">
                             <div class="card-image">
-                                <img src="http://startup.dev/assets/img/<?= $project->image ?>">
+                                <img src="/assets/img/<?= $project->image ?>">
                                 <div class="title"><?= $project->title ?></div>
 
                             </div>

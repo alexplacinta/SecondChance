@@ -91,7 +91,7 @@ class Project extends CI_Controller {
                     'projectID' => $projectID,
                     'value' => $value
                 ));
-                redirect('http://startup.dev/project/id/'.$projectID.'/success');
+                redirect('/project/id/'.$projectID.'/success');
             } else {
                 echo 'Permision denied';
             }

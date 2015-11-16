@@ -46,7 +46,7 @@ class Login extends CI_Controller {
                 );
 
                 $this->session->set_userdata('current_user', $session_data);
-                redirect('http://startup.dev/home');
+                redirect('/home');
             } else {
                 $data['message'] = 'Invalid Username or Password';
 
@@ -67,6 +67,6 @@ class Login extends CI_Controller {
         );
         $this->session->unset_userdata('current_user', $sess_array);
 
-        redirect('http://startup.dev/home');
+        redirect('/home');
     }
 }
